@@ -1,0 +1,9 @@
+.parallax-window {
+    min-height: 200px;
+    background: transparent;
+}
+#maybebanner div{
+    width: 808px;
+    height: 139px;
+    background-image: url("../images/maybeconsulting_logo-02.png");
+}
