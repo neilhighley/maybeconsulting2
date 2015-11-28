@@ -2,8 +2,28 @@
     min-height: 200px;
     background: transparent;
 }
+.site-header{
+    width:100%;
+    overflow:none;
+    display:block;
+}
+.site-header nav{
+    height:100px;
+    margin-left:20px;
+    
+}
 #maybebanner div{
     width: 808px;
     height: 139px;
-    background-image: url("../images/maybeconsulting_logo-02.png");
+    background-image: url("../idmages/maybeconsulting_logo-02.png");
+}
+.site-header #maybebanner{
+     width: 75%;
+     float:left;
+     display:block;
+    
+}
+.site-header .header-sidebar{
+    display:block;
+    float:right;
 }
