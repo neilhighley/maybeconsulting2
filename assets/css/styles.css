@@ -1,29 +1,52 @@
+html{
+    height:100%;
+}
+
+body{
+    background:url("../images/photo-1413912623716-e6c688db0383.jpg");
+    margin:0px;
+    padding:0px;
+   height:100%;
+}
+
+.container{
+     min-height: 100%;
+    margin-bottom: -50px; 
+}
+
 .parallax-window {
-    min-height: 200px;
+    min-height: 100px;
     background: transparent;
 }
 .site-header{
     width:100%;
-    overflow:none;
-    display:block;
+    background-color:white;
+    border:1px solid white;
+    padding:10px;
 }
 .site-header nav{
-    height:100px;
-    margin-left:20px;
-    
+    height:55px;
+    margin-left:410px;
+    background-color:white;
 }
 #maybebanner div{
-    width: 808px;
-    height: 139px;
+    width: 400px;
+    height: 70px;
     background-image: url("../idmages/maybeconsulting_logo-02.png");
+    background-color:white;
 }
 .site-header #maybebanner{
-     width: 75%;
+    width:400px;
      float:left;
      display:block;
-    
 }
 .site-header .header-sidebar{
-    display:block;
     float:right;
+}
+
+.site-footer, .container:after{
+    width:100%;
+    background-color:white;
+    border:1px solid white;
+    height:50px;
 }
