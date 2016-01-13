@@ -1,3 +1,12 @@
+
+@font-face{ 
+	font-family: 'Arimo';
+	src: url('../fonts/Arimo-Regular.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Aller';
+	src: url('../fonts/Aller_Rg.ttf') format('truetype');
+}
 html{
     height:100%;
 }
@@ -7,11 +16,13 @@ body{
     margin:0px;
     padding:0px;
    height:100%;
+   font-family:'Aller','Arial';
 }
+
 
 .container{
      min-height: 100%;
-    margin-bottom: -50px; 
+    margin-bottom: -12px; 
 }
 
 .parallax-window {
@@ -19,20 +30,20 @@ body{
     background: transparent;
 }
 .site-header{
-    width:100%;
     background-color:white;
-    border:1px solid white;
     padding:10px;
+    padding-right:0px;
 }
 .site-header nav{
     height:55px;
     margin-left:410px;
     background-color:white;
+    font-size:15px;
 }
 #maybebanner div{
     width: 400px;
     height: 70px;
-    background-image: url("../idmages/maybeconsulting_logo-02.png");
+    background-image: url("../images/maybeconsulting_logo-02.png");
     background-color:white;
 }
 .site-header #maybebanner{
@@ -43,10 +54,19 @@ body{
 .site-header .header-sidebar{
     float:right;
 }
-
-.site-footer, .container:after{
+.site-footer{
+    font-size:10px;
     width:100%;
     background-color:white;
-    border:1px solid white;
-    height:50px;
+}
+
+.site-footer .copyrighttext{
+     padding-left:10px;
+     color:red;
+}
+
+.site-footer, .container:after{
+    
+    height:12px;
+    
 }

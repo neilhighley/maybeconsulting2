@@ -7,7 +7,6 @@ var Clients = require('./clients');
 
 
 var App = React.createClass({
-
     render(){
             return (
             <section id="app-content"><LogoHeader></LogoHeader>
@@ -19,6 +18,8 @@ var App = React.createClass({
             </section>
             );
         }
+    
 });
 
+$(".site-footer .copyrighttext").html("&copy; Maybe Consulting 2016");
 module.exports = App;
