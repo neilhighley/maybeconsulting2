@@ -1,4 +1,5 @@
 var React = require('react');
+var Parallax = require('react-parallax')
 var LogoHeader = require('./logoheader');
 
 var Intro = require('./intro');
@@ -11,9 +12,10 @@ var App = React.createClass({
             return (
             <section id="app-content"><LogoHeader></LogoHeader>
                 <section id="sitecontent">
-                    <Intro></Intro>
-                    <Clients></Clients>
-                    <ContactUs></ContactUs>
+                      <Intro></Intro>
+                      <Clients></Clients>
+                      <ContactUs></ContactUs>
+                   
                 </section>
             </section>
             );

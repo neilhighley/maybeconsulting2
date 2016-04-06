@@ -12,7 +12,9 @@ html{
 }
 
 body{
+    /* 
     background:url("../images/photo-1413912623716-e6c688db0383.jpg");
+    */
     margin:0px;
     padding:0px;
    height:100%;
@@ -69,4 +71,14 @@ body{
     
     height:12px;
     
+}
+
+.intro{
+    
+}
+.xw300{
+    display:block;
+    width:300px;
+    height:300px;
+    border:2px solid red;
 }
